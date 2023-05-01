@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer ./app.js></script>
-    <title>Document</title>
+    <script src="./app.js" defer></script>
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
 <header>
@@ -15,8 +15,7 @@
     <div class="score-board">
         <div id="user-label" class="badge">user</div>
         <div id="computer-label"class="badge">comp</div>
-        <span></span>
-        <span id="user-score">0</span><span id="computer-score">0</span> 
+        <span id="user-score">0</span>:<span id="computer-score">0</span> 
     </div>
 
     <div class="result">
@@ -25,16 +24,16 @@
 
     <div class="choices">
         <div class="choice" id="r">
-            <img src="rock_e.jfif" alt="">
+            <img class="picture" src="rock.png"">
         </div>
             <div class="choice" id="p">
-            <img src="paper.jfif" alt="">
+            <img class="picture" src="paper.png" alt="">
         </div>
             <div class="choice" id="s">
-            <img src="scissors.png" alt="">
+            <img class="picture" src="scissors.png" alt="">
         </div>
     </div>
 
     <p id="action-message">Your turn!</p>
-</body>
+    
 </html>
